@@ -1,0 +1,13 @@
+public class Flip {
+    double flipped;
+    public static void coinFlip() {
+        if (Math.random() < 0.5) // retrieves a number from the function and tests if it is in the upper or lower
+                                     // half of the possible outcomes
+            {
+                System.out.println("Heads");
+            } 
+            else {
+                System.out.println("Tails");
+            }
+    }
+}
