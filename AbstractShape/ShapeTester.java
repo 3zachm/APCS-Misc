@@ -5,10 +5,10 @@ public class ShapeTester {
         ArrayList<Shape> list = new ArrayList<Shape>();
         Shape a = new Circle(10, "ayaya");
         Shape ay = new Square(5, "ayaya2");
-        Shape aya = new Octagon(10, 5, "ayaya3");
+        Shape aya = new Octagon(5, 10, "ayaya3");
         Shape ayay= new Circle(15, "ayaya4");
         Shape ayaya = new Square(50, "ayaya5");
-        Shape ayayaa = new Octagon(20, 15, "ayaya6");
+        Shape ayayaa = new Octagon(15, 20, "ayaya6");
         list.add(a);
         list.add(ay);
         list.add(aya);
@@ -18,6 +18,8 @@ public class ShapeTester {
 
         System.out.println("Listing toString()s\n");
         listToStrings(list);
+
+        System.out.println("\nListing values\n");
         listInfo(list);
 
     }

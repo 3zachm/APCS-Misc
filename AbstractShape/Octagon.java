@@ -5,6 +5,7 @@ public class Octagon extends Shape {
     public Octagon(double side, double apothem, String name) {
         super(name);
         this.side = side;
+        this.apothem = apothem;
     }
 
     public double perimeter() {
@@ -12,7 +13,7 @@ public class Octagon extends Shape {
     }
     
     public double area() {
-         return apothem * perimeter(); 
+         return (apothem * perimeter())/2; 
     }
 
     public double getApothem() {
