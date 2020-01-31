@@ -22,7 +22,7 @@ public class Square extends Shape {
     public String toString() {
         return "{" +
             " side='" + getSide() + "'" 
-            + ", name='" + super.getName() + "'" +
+            + ", name='" + super.name() + "'" +
             "}";
     }
 

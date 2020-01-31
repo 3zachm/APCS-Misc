@@ -16,14 +16,14 @@ public abstract class Shape {
         return perimeter() / 2;
     }
 
-    public String getName() {
+    public String name() {
         return this.name;
     }
 
     @Override
     public String toString() {
         return "{" +
-            " name='" + getName() + "'" +
+            " name='" + name() + "'" +
             "}";
     }
 }

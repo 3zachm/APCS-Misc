@@ -28,7 +28,7 @@ public class Octagon extends Shape {
         return "{" +
             " apothem='" + getApothem() + "'" +
             ", side='" + getSide() + "'" +
-            ", name='" + super.getName() + "'" +
+            ", name='" + super.name() + "'" +
             "}";
     }
 
