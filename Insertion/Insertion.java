@@ -1,7 +1,7 @@
 public class Insertion {
     public static void main(String[] args) {
         int[] og = new int[8];
-        for (int i = 0; i < og.length - 1; i++) {
+        for (int i = 0; i < og.length; i++) {
             og[i] = (int)((Math.random()*100) + 1);
         }
         
